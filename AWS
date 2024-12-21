@@ -1,1 +1,7 @@
-
+1. What are the Security Groups and Network ACLs, and how do they differ?
+Answer: Security Groups:
+-> Acts as a firewall for EC2 instances, controlling inbound and outbound traffic at the instance level.
+-> stateful:- Return traffic automatically allowed, regardless of rules.
+Network ACLs ( Access control Lists):
+-> Acts as a firewall for associated subnets, controlling inbound and outbound traffic at the subnet level.
+-> stateless:- Return traffic must be explicitly allowed by rules.

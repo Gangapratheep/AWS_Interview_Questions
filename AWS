@@ -5,3 +5,6 @@ Answer: Security Groups:
 Network ACLs ( Access control Lists):
 -> Acts as a firewall for associated subnets, controlling inbound and outbound traffic at the subnet level.
 -> stateless:- Return traffic must be explicitly allowed by rules.
+Difference:-
+-> Granularity: Security Groups operate at the instance level, while NACLs operate at the subnet level.
+-> Statefulness: Security Groups are stateful, while NACLs are stateless.
